@@ -9,7 +9,7 @@
 <br/>
 
 <table width="100%" >
-<tr><td><b>To client</td></tr>
+<tr><td><b>To run client</td></tr>
 <tr><td>cd node_client</td></tr>
 <tr><td>npm install</td></tr>
 <tr><td>npm run</td></tr>
