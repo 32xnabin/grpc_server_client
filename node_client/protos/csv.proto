@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option java_package = "com.csv.grpc";
+
+service CSV{
+   
+    rpc GetCSVStream (Empty) returns (ItemResponse);
+}
+
+
+
+message Empty{
+}
+
+message ItemResponse {
+    repeated Item items = 1;
+}
+message Item {
+    
+        string reference = 2;
+        float period = 3;
+        int32 value = 4;
+}
