@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "@grpc/grpc-js": "^1.0.5",
-    "grpc": "^1.24.3",
+    "grpc": "^1.24.9",
     "grpc-caller": "^0.13.0",
     "path": "^0.12.7"
   }
